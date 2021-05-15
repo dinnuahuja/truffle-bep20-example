@@ -381,8 +381,8 @@ contract Token is Context, iBEP20, Ownable {
     string public _name;
 
     constructor() public {
-        _name = "JA SEG";
-        _symbol = "J&A";
+        _name = "DogeMicro";
+        _symbol = "DogeM";
         _decimals = 8;
         _totalSupply = 1 * 10**8 * 10**18; //100m
         _balances[msg.sender] = _totalSupply;
